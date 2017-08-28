@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4B2E52F1F53AB4B00035C33 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B2E52E1F53AB4B00035C33 /* DataServices.swift */; };
+		C4B2E5311F53AC4900035C33 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B2E5301F53AC4900035C33 /* Constant.swift */; };
 		C4E30B371F5023850009D2D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E30B361F5023850009D2D9 /* AppDelegate.swift */; };
 		C4E30B391F5023850009D2D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E30B381F5023850009D2D9 /* ViewController.swift */; };
 		C4E30B3C1F5023850009D2D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E30B3A1F5023850009D2D9 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4B2E52E1F53AB4B00035C33 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		C4B2E5301F53AC4900035C33 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		C4E30B331F5023850009D2D9 /* DemoURLSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoURLSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E30B361F5023850009D2D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4E30B381F5023850009D2D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				C4E30B3F1F5023850009D2D9 /* LaunchScreen.storyboard */,
 				C4E30B421F5023850009D2D9 /* Info.plist */,
 				C4E30B481F5024D40009D2D9 /* RequestObject.swift */,
+				C4B2E52E1F53AB4B00035C33 /* DataServices.swift */,
+				C4B2E5301F53AC4900035C33 /* Constant.swift */,
 			);
 			path = DemoURLSession;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			files = (
 				C4E30B391F5023850009D2D9 /* ViewController.swift in Sources */,
 				C4E30B371F5023850009D2D9 /* AppDelegate.swift in Sources */,
+				C4B2E5311F53AC4900035C33 /* Constant.swift in Sources */,
 				C4E30B491F5024D40009D2D9 /* RequestObject.swift in Sources */,
+				C4B2E52F1F53AB4B00035C33 /* DataServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				C4E30B471F5023850009D2D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
